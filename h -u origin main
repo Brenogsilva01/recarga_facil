@@ -1,0 +1,13 @@
+[33m> 67497e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m)[m Removendo arquivo .env por seguranca
+[33m> 7dd2422[m API mapa, correção de horas na agenda e menu inferior solto em algumas paginas
+[33m< 40e2324[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Revise README with project details and execution steps
+[33m> e92ce11[m Revise README for project overview and setup instructions
+[33m< 8afe17e[m[33m ([m[1;31mupstream/feature/docker-env-config[m[33m)[m Configura .env compartilhado entre Docker Compose e Spring Boot para MySQL e PostgreSQL, adiciona .env.example
+[33m< 78ec1dd[m fix: move frontend files to static folder
+[33m< 2468322[m Define codificacao UTF-8 do projeto
+[33m< ce233a8[m Padroniza codificacao UTF-8 das configuracoes
+[33m< faeb463[m Corrige codificacao UTF-8 do H2
+[33m< 42522e5[m Corrige codificacao da configuracao H2
+[33m< bbbe32f[m Configura PostgreSQL e profiles de banco
+[33m< 5dd00b4[m Adiciona Dockerfile para deploy
+[33m< e2cb0b8[m Update README.md
