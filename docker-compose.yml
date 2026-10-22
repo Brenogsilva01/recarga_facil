@@ -3,12 +3,25 @@ services:
     image: mysql:8.0
     container_name: recarga-facil-mysql
     environment:
-      MYSQL_DATABASE: recargafacil
-      MYSQL_ROOT_PASSWORD: recarga123
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     ports:
       - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
 
+  postgres:
+    image: postgres:16
+    container_name: recarga-facil-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
 volumes:
   mysql_data:
+  postgres_data:
